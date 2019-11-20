@@ -13,14 +13,18 @@ import kotlin.random.Random
 
 class GameViewModel : ViewModel() {
     private lateinit var timer: CountDownTimer
+    var millis : Long = 3
     var list = ArrayList<Int>(5)
     var mylist = ArrayList<Int>(5)
     var round :Int = 0
     var full :Boolean = false
     var  end :Boolean = false
     var  timeout :Boolean = false
+    var boo : Boolean = false
 
     init {
+
+        boo = false
         onRandom()
         Timber.i("GameViewModel created!")
 

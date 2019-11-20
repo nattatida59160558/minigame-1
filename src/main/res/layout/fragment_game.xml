@@ -40,6 +40,12 @@
                     android:textAlignment="center"
                     android:textSize="@dimen/size" />
 
+                <TextView
+                    android:id="@+id/countTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

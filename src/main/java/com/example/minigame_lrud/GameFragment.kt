@@ -22,6 +22,7 @@ class GameFragment : Fragment() {
     private lateinit var binding:FragmentGameBinding
     private lateinit var viewModel: GameViewModel
     var timer: Timer?=null
+    val l:Long = 0
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate<FragmentGameBinding>(inflater, R.layout.fragment_game,container,false)
@@ -49,6 +50,8 @@ class GameFragment : Fragment() {
                 view.findNavController().navigate(GameFragmentDirections.actionGameFragmentToEndGameFragment(endArgs = "${viewModel.round-1}"))
             }
         }
+
+
         return binding.root
     }
 
@@ -66,8 +69,14 @@ class GameFragment : Fragment() {
         override fun onTick(millisUntilFinished: Long) {
             this.millisUntilFinished = millisUntilFinished
             millisUntilFinished/1000
+
+
+
+
         }
     }
+
+
 
     private fun invisiblebutton(){
         binding.apply {
@@ -76,7 +85,7 @@ class GameFragment : Fragment() {
             item3.visibility= View.INVISIBLE
             item4.visibility= View.INVISIBLE
             item5.visibility= View.INVISIBLE
-           timer?.cancel()
+            timer?.cancel()
         }
 
     }
@@ -91,6 +100,10 @@ class GameFragment : Fragment() {
         }
 
     }
+
+
+
+
 
 
      private fun aa(){
@@ -145,8 +158,9 @@ class GameFragment : Fragment() {
                     binding.item5.setImageResource(R.drawable.ri)
                 }
             }
-            visiblebutton()
             startTimer()
+            visiblebutton()
+
         }
     }
 

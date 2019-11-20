@@ -6,15 +6,15 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="I/M" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fbf3df0-cda2-4cfd-8f63-16410ab5b7b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/TitleFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/TitleFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="293">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/ClickerApplication.kt">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/CountDownTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#35#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1034">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
             </state>
           </provider>
         </entry>
@@ -60,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -79,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/TitleFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -108,7 +105,7 @@
           <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="1540">
-              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -144,6 +141,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>context</find>
+      <find>startTimer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,11 +157,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/AboutFragment.kt" />
         <option value="$PROJECT_DIR$/src/main/res/values/integers.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fragment_end_game.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/fragment_title.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" />
         <option value="$PROJECT_DIR$/src/main/res/menu/winner_menu.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/EndGameFragment.kt" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
@@ -173,6 +168,9 @@
         <option value="$PROJECT_DIR$/src/main/res/navigation/navigation.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/MainActivity.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/TitleFragment.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" />
       </list>
     </option>
   </component>
@@ -357,7 +355,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12953092" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -366,10 +364,10 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.17032968" />
-      <window_info active="true" anchor="bottom" x="33" y="662" width="1876" height="205" id="Logcat" order="1" type="FLOATING" visible="true" weight="0.22527473" />
+      <window_info anchor="bottom" x="33" y="662" width="1876" height="391" id="Logcat" order="1" type="FLOATING" visible="true" weight="0.22527473" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.33186814" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33186814" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3010989" />
@@ -535,14 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_game.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_title.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
@@ -570,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -587,14 +570,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/TitleFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_game.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/CountDownTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="293">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
         </state>
       </provider>
     </entry>
