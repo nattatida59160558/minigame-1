@@ -22,10 +22,6 @@ class TitleFragment : Fragment() {
                 view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment2(gameArgs = "Hi"))
 
         }
-
-
-
-
         setHasOptionsMenu(true)
         return binding.root
     }

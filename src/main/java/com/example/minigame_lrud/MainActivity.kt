@@ -12,17 +12,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
-        val navController = this.findNavController(R.id.myNavHostFragment)
-        NavigationUI.setupActionBarWithNavController(this, navController)
+        DataBindingUtil.setContentView<ActivityMainBinding>(this,R.layout.activity_main)
+        val navController = this.findNavController(R.id.my_NavHostFragment)
+        NavigationUI.setupActionBarWithNavController(this,navController)
         Timber.i("onCreate called")
     }
-
     override fun onSupportNavigateUp(): Boolean {
-        val navController = this.findNavController(R.id.myNavHostFragment)
+        val navController = this.findNavController(R.id.my_NavHostFragment)
         return navController.navigateUp()
     }
-
     override fun onStart() {
         super.onStart()
 
