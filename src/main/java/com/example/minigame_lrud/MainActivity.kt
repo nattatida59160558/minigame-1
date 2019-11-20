@@ -2,6 +2,7 @@ package com.example.minigame_lrud
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
@@ -23,32 +24,30 @@ class MainActivity : AppCompatActivity() {
     }
     override fun onStart() {
         super.onStart()
+        Log.i("MainActivity", "onStart called")
 
-        Timber.i("onStart called")
     }
 
     override fun onResume() {
         super.onResume()
-        Timber.i("onResume Called")
+        Log.i("MainActivity", "onResume Called")
+
     }
 
     override fun onPause() {
         super.onPause()
-        Timber.i("onPause Called")
+        Log.i("MainActivity", "onPause Called")
     }
 
     override fun onStop() {
         super.onStop()
-        Timber.i("onStop Called")
+        Log.i("MainActivity", "onStop Called")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Timber.i("onDestroy Called")
+        Log.i("MainActivity", "onDestroy Called")
+
     }
 
-    override fun onRestart() {
-        super.onRestart()
-        Timber.i("onRestart Called")
-    }
 }

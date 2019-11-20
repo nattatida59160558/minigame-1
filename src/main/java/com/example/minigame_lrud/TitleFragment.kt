@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.minigame_lrud.databinding.FragmentTitleBinding
+import timber.log.Timber
 
 
 class TitleFragment : Fragment() {
@@ -36,6 +37,7 @@ class TitleFragment : Fragment() {
                 view!!.findNavController())
                 || super.onOptionsItemSelected(item)
     }
+
 
 
 }

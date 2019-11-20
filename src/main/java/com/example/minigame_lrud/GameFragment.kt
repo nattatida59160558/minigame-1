@@ -76,6 +76,7 @@ class GameFragment : Fragment() {
             item3.visibility= View.INVISIBLE
             item4.visibility= View.INVISIBLE
             item5.visibility= View.INVISIBLE
+           timer?.cancel()
         }
 
     }
