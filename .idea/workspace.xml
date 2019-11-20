@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9fbf3df0-cda2-4cfd-8f63-16410ab5b7b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_game.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,17 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/CountDownTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="245">
+              <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -57,8 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="178">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/CountDownTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -242,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="T8LBMFJNNRAE8HSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../parkingnavigation-master/MySchedule/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -352,10 +350,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12953092" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -364,10 +361,10 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.17032968" />
-      <window_info anchor="bottom" x="33" y="662" width="1876" height="391" id="Logcat" order="1" type="FLOATING" visible="true" weight="0.22527473" />
+      <window_info anchor="bottom" x="655" y="408" width="1876" height="167" id="Logcat" order="1" type="FLOATING" visible="true" weight="0.22527473" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33186814" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.33186814" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3010989" />
@@ -584,22 +581,22 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/os/CountDownTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="288">
+          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="178">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/minigame_lrud/GameFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="245">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
         </state>
       </provider>
     </entry>
